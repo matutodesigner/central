@@ -3,8 +3,8 @@ import Link from 'next/link'
 
 export function Cta() {
   return (
-    <div className="my-40 flex justify-center items-center flex-col">
-      <h2 className="text-primary font-bold text-center text-5xl max-w-5xl">
+    <div className="sm:my-40 my-20 p-6 flex justify-center items-center flex-col">
+      <h2 className="text-primary font-bold text-center text-3xl sm:text-5xl max-w-5xl">
         Junte-se ao Futuro da Saúde: Produtos Cirúrgicos com Tecnologia
         Avançada.
       </h2>

@@ -14,13 +14,13 @@ export default function Page({ params }: { params: { slug: string } }) {
 
   return (
     <div>
-      <div className="bg-primary pb-40 pt-56 hero text-center text-white mb-40">
+      <div className="bg-primary sm:pb-40 pb-20 sm:pt-56 pt-48 hero text-center text-white sm:mb-40 mb-20">
         <h1 className="md:text-6xl max-w-3xl mx-auto text-3xl font-bold">
           {product?.title}
         </h1>
       </div>
-      <div className="container mb-40">
-        <div className="flex">
+      <div className="container sm:mb-40 mb-20">
+        <div className="sm:flex">
           <div className="">
             <Image
               src={`/products/${product?.image}`}
@@ -31,7 +31,7 @@ export default function Page({ params }: { params: { slug: string } }) {
             />
           </div>
           <div
-            className="w-1/2 px-8"
+            className="sm:w-1/2 px-8 mt-12 sm:mt-0"
             dangerouslySetInnerHTML={{ __html: product?.content ?? '' }}
           />
         </div>

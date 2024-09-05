@@ -55,7 +55,7 @@ export function Hero() {
   }, [])
 
   return (
-    <div className="h-[80vh] text-center w-full bg-primary bg-[url('/bg-hero.jpg')] bg-cover bg-center hero flex items-center flex-col justify-center text-white">
+    <div className="sm:h-[80vh] h-[70vh] p-8 text-center w-full bg-primary bg-[url('/bg-hero.jpg')] bg-cover bg-center hero flex items-center flex-col justify-center text-white">
       <h1
         ref={h1Ref}
         className="max-w-[940px] font-bold mb-12 z-40 text-balance text-3xl sm:text-6xl"

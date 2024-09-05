@@ -16,18 +16,18 @@ import product3 from '@/images/carossel/produto-3.jpg'
 export function Products() {
   return (
     <div className="relative">
-      <div className="bg-primary absolute z-0 left-0 md:w-24 lg:w-[30%] w-8 h-full"></div>
+      <div className="bg-primary absolute z-0 left-0 md:w-24 lg:w-[30%] w-9 h-full"></div>
       <div className="container">
-        <div className="grid grid-cols-2">
-          <div className="bg-primary p-24 z-10 rounded-r-full">
-            <h3 className="text-white text-5xl font-semibold mb-8">
+        <div className="grid sm:grid-cols-2">
+          <div className="bg-primary sm:p-24 p-12 z-10 rounded-r-full">
+            <h3 className="text-white text-3xl sm:text-5xl font-semibold mb-8">
               Conheça nossa linha de produtos
             </h3>
             <Link href="/produtos">
               <Button variant={'secondary'}>Quero Conhecer</Button>
             </Link>
           </div>
-          <div className="h-full">
+          <div className="h-full hidden sm:block">
             <Carousel
               opts={{
                 align: 'start',

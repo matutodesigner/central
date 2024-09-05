@@ -8,21 +8,24 @@ import Autoplay from 'embla-carousel-autoplay'
 import Image from 'next/image'
 import imagePredio from '@/images/predio.jpg'
 import { Target, Eye, Star } from 'lucide-react'
-import { Map } from '../_components/map'
+import dynamic from 'next/dynamic'
+const Map = dynamic(() => import('../_components/map').then((mod) => mod.Map), {
+  ssr: false,
+})
 
 export default function Conheca() {
   return (
     <div>
-      <div className="bg-primary pb-40 pt-56 hero text-center text-white mb-40">
+      <div className="bg-primary sm:pb-40 pb-20 sm:pt-56 pt-48 hero text-center text-white mb-40">
         <h1 className="md:text-6xl text-3xl font-bold">
           Conheça nossa História
         </h1>
       </div>
-      <div className="container mb-40">
-        <div className="grid grid-cols-2">
+      <div className="container sm:mb-40 mb-20">
+        <div className="grid sm:grid-cols-2">
           <div>
             <Image
-              className="rounded-xl"
+              className="rounded-xl mb-12 sm:mb-0"
               src={imagePredio}
               alt="Conheça nossa história"
             />
@@ -53,8 +56,8 @@ export default function Conheca() {
         </div>
       </div>
 
-      <div className="container my-40">
-        <div className="grid grid-cols-3 gap-8">
+      <div className="container sm:my-40 my-20">
+        <div className="grid sm:grid-cols-3 gap-8">
           <div className="bg-white p-6 rounded-lg border shadow-lg">
             <div className="flex items-center mb-4">
               <Target className="text-primary w-8 h-8 mr-2" />

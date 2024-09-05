@@ -89,9 +89,9 @@ export function AbountOne() {
   return (
     <div
       ref={sectionRef}
-      className="container my-40 text-center flex flex-col space-y-8"
+      className="container sm:my-40 my-20 text-center flex flex-col space-y-8"
     >
-      <h2 ref={h2Ref} className="text-primary font-bold text-5xl">
+      <h2 ref={h2Ref} className="text-primary font-bold text-3xl sm:text-5xl">
         Mais de 20 anos no mercado
       </h2>
       <p ref={pRef} className="max-w-xl mx-auto">

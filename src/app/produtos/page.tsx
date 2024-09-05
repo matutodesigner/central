@@ -6,13 +6,13 @@ import { AboutTwo } from '../_components/about-two'
 export default function Page() {
   return (
     <div>
-      <div className="bg-primary pb-40 pt-56 hero text-center text-white mb-40">
+      <div className="bg-primary sm:pb-40 pb-20 sm:pt-56 pt-48 hero text-center text-white mb-40">
         <h1 className="md:text-6xl max-w-xl mx-auto text-3xl font-bold">
           Conheça nossa linha de produtos{' '}
         </h1>
       </div>
       <div className="container mb-40 ">
-        <div className="grid sm:grid-cols-3 grid-cols-2 gap-8">
+        <div className="grid sm:grid-cols-3 gap-8">
           {Products.map((product, index) => (
             <div
               key={index}

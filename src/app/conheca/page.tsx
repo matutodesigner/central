@@ -8,10 +8,6 @@ import Autoplay from 'embla-carousel-autoplay'
 import Image from 'next/image'
 import imagePredio from '@/images/predio.jpg'
 import { Target, Eye, Star } from 'lucide-react'
-import dynamic from 'next/dynamic'
-const Map = dynamic(() => import('../_components/map').then((mod) => mod.Map), {
-  ssr: false,
-})
 
 export default function Conheca() {
   return (
@@ -146,7 +142,6 @@ export default function Conheca() {
           </Carousel>
         </div>
       </div>
-      <Map />
     </div>
   )
 }

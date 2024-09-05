@@ -7,7 +7,7 @@ export function Map() {
   return (
     <div>
       <MapContainer
-        className="h-[50vh]"
+        className="h-[50vh] w-full"
         center={[-21.7295808, -43.3563624]}
         zoom={15}
         scrollWheelZoom={false}

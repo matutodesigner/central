@@ -142,13 +142,17 @@ export default function Conheca() {
           </Carousel>
         </div>
       </div>
+      <iframe
+        src="https://maps.google.com/maps?q=Rua+Paracatu%2C626-Santa+Terezinha-Juiz+de+Fora-MG&t=&z=16&ie=UTF8&iwloc=&output=embed"
+        style={{ width: '100%', minHeight: '100px' }}
+        className="h-96"
+      ></iframe>
     </div>
   )
 }
 
 const images = [
   { url: '/images/central-1.jpg' },
-  { url: '/images/central-2.jpg' },
   { url: '/images/central-3.jpg' },
   { url: '/images/central-4.jpg' },
   { url: '/images/central-5.jpg' },

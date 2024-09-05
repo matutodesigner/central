@@ -12,6 +12,11 @@ export default function Home() {
       <Products />
       <Cta />
       <AboutTwo />
+      <iframe
+        src="https://maps.google.com/maps?q=Rua+Paracatu%2C626-Santa+Terezinha-Juiz+de+Fora-MG&t=&z=16&ie=UTF8&iwloc=&output=embed"
+        style={{ width: '100%', minHeight: '100px' }}
+        className="h-96"
+      ></iframe>
     </main>
   )
 }

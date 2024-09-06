@@ -7,6 +7,7 @@ import {
 import Autoplay from 'embla-carousel-autoplay'
 import Image from 'next/image'
 import imagePredio from '@/images/predio.jpg'
+import equipe from '@/images/equipe.png'
 import { Target, Eye, Star } from 'lucide-react'
 
 export default function Conheca() {
@@ -109,6 +110,11 @@ export default function Conheca() {
             </ul>
           </div>
         </div>
+        <Image
+          src={equipe}
+          className="rounded-lg mt-20 sm:nt-40 w-full"
+          alt="Nossa Equipe"
+        />
       </div>
       <div className="bg-primary py-40">
         <div className="">

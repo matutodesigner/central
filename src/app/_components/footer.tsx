@@ -13,10 +13,16 @@ export function Footer() {
               <Link className="hover:text-primary transition-all" href="/">
                 Home
               </Link>
-              <Link className="hover:text-primary transition-all" href="/">
+              <Link
+                className="hover:text-primary transition-all"
+                href="/conheca"
+              >
                 Conheça
               </Link>
-              <Link className="hover:text-primary transition-all" href="/">
+              <Link
+                className="hover:text-primary transition-all"
+                href="/produtos"
+              >
                 Produtos
               </Link>
             </nav>

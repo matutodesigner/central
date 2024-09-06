@@ -7,7 +7,7 @@ import {
 import Autoplay from 'embla-carousel-autoplay'
 import Image from 'next/image'
 import imagePredio from '@/images/predio.jpg'
-import equipe from '@/images/equipe.png'
+import equipe from '@/images/equipe.jpg'
 import { Target, Eye, Star } from 'lucide-react'
 
 export default function Conheca() {
